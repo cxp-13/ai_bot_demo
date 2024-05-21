@@ -1,20 +1,27 @@
-https://www.youtube.com/watch?v=dhLNuOztT68&t=262s
-# A.I Bot with GO - Wit.Ai 💬+ WolframAlpha 🐺 + Golang 🔥+ Slack 🤖
+# A.I Bot Control Smart Contract - Wit.Ai 💬 + Golang 🔥 + Solidity 🤖
 
-## 项目简介
+![image](https://github.com/cxp-13/ai_bot_demo/assets/84974164/f89c4b20-c24c-4b98-829d-366692fb7610)
 
-这是一个基于 Golang 构建的智能聊天机器人项目，集成了 Wit.Ai 用于自然语言处理、WolframAlpha 用于回答问题，并通过 Slack 进行用户交互。
 
-## 技术栈
+## Project Overview
 
-- **Golang**: 项目的主要编程语言，因其高性能和并发支持而选择。
-- **Wit.Ai**: 用于自然语言处理和意图识别。
-- **WolframAlpha**: 用于复杂问题的计算和知识查询。
-- **Slack**: 作为与用户交互的平台。
+This is a simple AI-controlled smart contract project built with Golang, integrating Wit.Ai for natural language processing and intent recognition.
 
-## 功能
+## Technology Stack
 
-- 解析用户的自然语言问题。
-- 使用 Wit.Ai 识别用户的意图和提取关键实体。
-- 调用 WolframAlpha API 获取问题的答案。
-- 将答案通过 Slack 发送给用户。
+- **Golang**: Chosen as the primary programming language for its high performance and concurrency support.
+- **Wit.Ai**: Used for natural language processing and intent recognition, integrated with the `wit-go` library.
+- **Solidity**: Utilized for writing and deploying smart contracts, controlling and managing an NFT marketplace on the blockchain.
+- **Ethereum**: Interacted with via the `go-ethereum` and `ethgo` libraries for communication with the Ethereum blockchain.
+- **Gin**: A high-performance HTTP web framework used for building APIs.
+- **Redis**: Employed the `go-redis` library for caching and storing private keys and other data.
+- **GJSON**: Used for parsing and processing JSON data.
+- **Godotenv**: Used for loading environment variables, facilitating local development and configuration management.
+
+## Features
+
+- Parsing natural language queries from users.
+- Utilizing Wit.Ai for intent recognition and extraction of key entities.
+- Interacting with Ethereum smart contracts for NFT marketplace operations.
+- Caching private keys and other data with Redis to improve performance.
+- Providing a RESTful API implemented with Gin for receiving and handling requests.
